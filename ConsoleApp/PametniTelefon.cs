@@ -3,11 +3,11 @@
     internal class PametniTelefon : ElektronickiUredjaj
     {
         public string OperativniSustav { get; set; }
-        public PametniTelefon(string naziv, string proizvodjac, int godinaProizvodnje, string OperativniSustav) 
+        public PametniTelefon(string naziv, string proizvodjac, int godinaProizvodnje, string operativniSustav) 
             : base(naziv, proizvodjac, godinaProizvodnje)
 
         {
-            OperatingSystem = operativniSustav;
+            OperativniSustav = operativniSustav;
         }
     }
 }
